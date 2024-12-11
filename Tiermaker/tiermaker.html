@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tier Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Your Own Tier List App...
+    </h1>
+    <form action="">
+        <label for="tier">Tier:</label>
+        <input type="text" id="tier" name="tier" placeholder="Give the tier name..."
+        value="Superhero">
+        <button type="submit" value="Submit" id="submit" class="submitBtn">
+           Click Me</button>
+    </form>
+    <hr>
+    <form id="image-form">
+        <label for="tier">Item:</label>
+        <input type="text" id="image-item" name="item" placeholder="Give the item image url..."
+        value="Superhero">
+        <button type="submit" id="submitImage" class="submitBtn">
+           Click Me</button>
+    </form>
+    <hr>
+    <section id="tier-list-section">
+        <!-- <div class="tier-list">
+            <h1>Sample tier Lsit</h1>
+            <div class="tier-list-items">
+    
+            </div>
+        </div> -->
+    </section>
+    <section id="non-tier-section">
+        
+        <div class="item-container" draggable="true">
+            <img src="https://cdn.britannica.com/30/182830-050-96F2ED76/Chris-Evans-title-character-Joe-Johnston-Captain.jpg" alt="">
+        </div>
+        
+    </section>
+
+    <script src="script.js">
+        // console.log("hello");
+        // console.log("world")
+    </script>
+</body>
+</html>
